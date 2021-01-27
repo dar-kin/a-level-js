@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: space-around;
+}
+
+#user-list {
+	width: 500px;
+}
+
+.user-card {
+	border: 1px solid #9e9e9e;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.user-card .user-info {
+	margin-left: 15px;
+}
+
+.user-card img {
+	min-height: 64px;
+	min-width: 64px;
+}
+
+#add-new-user:hover {
+ background-color:#5cbf2a;
+}
+#add-new-user:active {
+ position:relative;
+ top:1px;
+}
+
+form {
+	margin: 15px;
+	border: 1px solid #9e9e9e;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0;
+	align-items: center;
+}
+
+form .label {
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+form input {
+	outline: none;
+	height: 20px;
+	width: 100%
+}
+form .form-field {
+	width: 75%;
+}
+
+button {
+ border-radius:28px;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Arial;
+ font-size:17px;
+ padding:16px 31px;
+ text-decoration:none;
+ outline: none;
+ margin: 15px;
+ margin-bottom: 0;
+}
+
+button.button-success {
+	background: lightgreen;
+}
+
+button.button-danger {
+	background: red;
+}
+
+#add-new-user {
+ background-color: #44c767;
+ border: 1px solid #18ab29;
+ text-shadow: 0px 1px 0px #2f6627;
+ width: calc(100% - 30px);
+}
+
+form .input-error {
+	margin-bottom: 10px;
+	margin-top: 15px;
+	color: red;
+}
